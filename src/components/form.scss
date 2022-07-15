@@ -8,8 +8,7 @@ $black-color: #000000;
 .main-container {
     height: 100%;
     width: 35%;
-
-    margin: 40px 0 0 550px;
+    margin: 40px 0 0 400px;
 
     .container {
         margin-left: 3rem;
@@ -26,7 +25,7 @@ $black-color: #000000;
         }
 
         .main-input {
-            width: 40rem;
+            width: 95%;
             height: 1rem;
             font-weight: bold;
             padding: 10px;
@@ -38,7 +37,7 @@ $black-color: #000000;
         }
 
         .location-details {
-            width: 20rem;
+            width: 16rem;
             height: 2.5rem;
             margin-right: 5px;
             padding: 10px;
@@ -67,7 +66,6 @@ $black-color: #000000;
                 height: 40px;
                 width: 40px;
                 text-align: center;
-                // outline-color: red;
             }
             input[type=number]::-webkit-inner-spin-button,
             input[type=number]::-webkit-outer-spin-button {
@@ -109,7 +107,7 @@ $black-color: #000000;
             }
 
             .labels {
-                padding: 5px 15px;
+                padding: 5px 3px;
             }
         }
 
@@ -144,27 +142,27 @@ $black-color: #000000;
             .final-title {
                 position: absolute;
                 top: 40px;
-                left: 250px;
+                left: 200px;
             }
 
             .final-titles {
                 position: absolute;
                 top: 90px;
-                left: 300px;
+                left: 250px;
                 font-weight: bold;
             }
 
             p {
                 position: absolute;
                 top: 100px;
-                left: 100px;
+                left: 70px;
                 color: $secondary-color;
             }
         }
 
         .submit-button {
             background: $blue-color;
-            margin: 2rem 0 2rem 15rem;
+            margin: 2rem 0 2rem 10rem;
             color: $white-color;
             height: 50px;
             width: 250px;

@@ -24,7 +24,6 @@ const Form = () => {
             if(!result){
                 errors[name]="Please enter"
             }
-            // console.log(result);
         }
         if(value === ""  || value === "---"){
             errors[name]="Please enter"
