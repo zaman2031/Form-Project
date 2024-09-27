@@ -1,0 +1,181 @@
+$primary-color: #45E2B6;
+$secondary-color: #9D92AB;
+$red-color: #ff0000;
+$blue-color: #24a0ed;
+$white-color : #fff;
+$black-color: #000000;
+
+.main-container {
+    height: 100%;
+    width: 35%;
+    margin: 40px 0 0 400px;
+
+    .container {
+        margin-left: 3rem;
+        padding: 5px 0 0 0;
+
+        .main-heading {
+            border-bottom: 2px solid $primary-color;
+            font-size: larger;
+            padding-bottom: 8px;
+        }
+
+        .main-title {
+            margin: 35px 0 10px 0;
+        }
+
+        .main-input {
+            width: 95%;
+            height: 1rem;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .input-message {
+            margin-top: 8px;
+            color: $secondary-color;
+        }
+
+        .location-details {
+            width: 16rem;
+            height: 2.5rem;
+            margin-right: 5px;
+            padding: 10px;
+        }
+        .validation-error{
+            color: $red-color;
+        }
+
+        .select-Option {
+            width: 27rem;
+            height: 2.5rem;
+            margin-right: 5px;
+            padding: 10px;
+        }
+
+        .income-details {
+            display: inline;
+            margin-left: 2rem;
+
+            .income-inputs {
+                display: inline-block;
+                padding: 2rem 0 0 0;
+            }
+
+            .input-Cicle {
+                height: 40px;
+                width: 40px;
+                text-align: center;
+            }
+            input[type=number]::-webkit-inner-spin-button,  
+            input[type=number]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+            }
+        }
+
+        .text {
+            display: inline;
+            margin-left: 1rem;
+        }
+
+        .alert-message {
+            color: $red-color;
+        }
+
+        .second-section {
+            margin-top: 3rem;
+
+            .work-title {
+                display: inline;
+            }
+
+            .note {
+                padding-left: 2rem;
+                color: $secondary-color;
+                font-size: large;
+            }
+        }
+
+        .multiple-checkboxes {
+            margin: 1rem 0 0 0;
+
+            .checkboxes {
+                padding: 0.8rem 15px 0 0;
+                display: inline-block;
+            }
+
+            .labels {
+                padding: 5px 3px;
+            }
+        }
+
+        .main-para {
+            height: 7rem;
+            width: 95%;
+            padding: 10px;
+            font-size: large;
+            font-weight: bold;
+            resize: none;
+            border: 2px solid $secondary-color;
+        }
+
+        .image-preview{
+            height: 100%;
+            width: 100%;
+        }
+
+        .image-section {
+            position: relative;
+            width: 100%;
+            height: 160px;
+
+            input[type="file" i] {
+                height: 150px;
+                width: 95%;
+                border: 2px dashed $secondary-color;
+                color: $white-color;
+                border-radius: 10px;
+                cursor: pointer;
+
+                &::-webkit-file-upload-button {
+                    display: none;
+                }
+            }
+
+            .drag-title {
+                position: absolute;
+                top: 35px;
+                left: 200px;
+                z-index: -1;
+            }
+
+            .Upload-titles {
+                position: absolute;
+                top: 60px;
+                left: 240px;
+                font-weight: bold;
+                z-index: -1;
+            }
+
+            p {
+                position: absolute;
+                top: 6rem;
+                left: 60px;
+                color: $secondary-color;
+                z-index: -1;
+            }
+        }
+
+        .submit-button {
+            background: $blue-color;
+            margin: 2rem 0 2rem 10rem;
+            color: $white-color;
+            height: 50px;
+            width: 250px;
+            cursor: pointer;
+            border: none;
+        }
+    }
+}
